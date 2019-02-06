@@ -1,0 +1,25 @@
+{
+  "src": {
+    "specification": "./src/alchemy.md",
+    "smt_prelude": "./src/prelude.smt2.md",
+    "rules": [
+      "./src/storage.md"
+    ]
+  },
+  "implementations": {
+    "ERC20": {
+      "solc_output": "./src/ERC20.sol.json"
+    },
+    "IERC20": {
+      "solc_output": "./src/ERC20.sol.json"
+    },
+    "SafeMath": {
+      "solc_output": "./src/ERC20.sol.json"
+    },
+    "Alchemist": {
+      "solc_output": "./src/Alchemist.sol.json"
+    }
+  },
+  "dapp_root": "./melon",
+  "host": "127.0.0.1:8080"
+}
